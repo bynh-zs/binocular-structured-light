@@ -1,0 +1,21 @@
+# 本地原始材料，不入库
+*.docx
+*.doc
+*.pdf
+*.png
+*.jpg
+*.jpeg
+~$*
+
+# 工作目录与工具产物
+output/
+.workbuddy/
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+.idea/
+Thumbs.db
+
+# 统计报告（含实测数据，按需单独决定是否公开）
+validation/reports/
